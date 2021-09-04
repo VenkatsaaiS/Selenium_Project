@@ -18,10 +18,9 @@ public class Handling_iframe {
         driver.navigate().to("https://demoqa.com/frames");
 
         List<WebElement> iframeElements = driver.findElements(By.id("frame1"));
-        List<WebElement> iframeElements1 = driver.findElements(By.id("sampleHeading"));
 
         System.out.println("Total number of iframes are " + iframeElements.size());
-        System.out.println("Total number of iframes are " + iframeElements1.size());
+    
 
         driver.close();
 
